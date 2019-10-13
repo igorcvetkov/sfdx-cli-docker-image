@@ -12,3 +12,4 @@ RUN wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.
 RUN tar xJf ./sfdx-linux-amd64.tar.xz -C ../sfdx/ --strip-components 1
 RUN cd ..
 RUN ./sfdx/install
+RUN sfdx update
