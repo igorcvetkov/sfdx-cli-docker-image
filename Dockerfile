@@ -13,3 +13,5 @@ RUN tar xJf ./sfdx-linux-amd64.tar.xz -C ../sfdx/ --strip-components 1
 RUN cd ..
 RUN ./sfdx/install
 RUN sfdx update
+RUN apt update
+RUN apt -y install jq
