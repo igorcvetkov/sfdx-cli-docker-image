@@ -17,3 +17,4 @@ RUN apt update
 RUN apt -y install jq
 RUN apt -y install git
 RUN apt -y install curl
+RUN sfdx
